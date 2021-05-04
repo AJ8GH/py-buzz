@@ -14,5 +14,9 @@ class FizzBuzzTest(unittest.TestCase):
         fizz_buzz = FizzBuzz()
         self.assertEqual(fizz_buzz.go(10), 'Buzz')
 
+    def test_number_is_returned_for_non_multiples_of_3_or_5(self):
+        fizz_buzz = FizzBuzz()
+        self.assertEqual(fizz_buzz.go(2), 2)
+
 if __name__ == '__main__':
     unittest.main()

@@ -2,4 +2,6 @@ class FizzBuzz:
     def go(self, number):
         if number % 5 == 0:
             return 'Buzz'
-        return 'Fizz'
+        elif number % 3 == 0:
+            return 'Fizz'
+        return number
