@@ -1,9 +1,9 @@
-Py-Buzz
+PyBuzz
 =======
 
 ***TDD-ing FizzBuzz in Python***
 
-## Rules of the game
+## Rules of the game
 
 * Program must take a number and output the correct return value
 * If number is divisible by 3 >> return `'Fizz'`
